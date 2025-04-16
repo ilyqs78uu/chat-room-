@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms Sécurisées</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers le CSS -->
+</head>
+<body>
+    <header>
+        <h1>Bienvenue dans les Rooms Sécurisées</h1>
+        <p>Créez ou rejoignez une room sécurisée pour discuter en toute confidentialité.</p>
+    </header>
+
+    <main>
+        <section class="room-creation">
+            <h2>Créer une room</h2>
+            <form action="#">
+                <label for="room-name">Nom de la Room:</label>
+                <input type="text" id="room-name" name="room-name" placeholder="Nom de la room" required>
+
+                <label for="password">Mot de passe (optionnel):</label>
+                <input type="password" id="password" name="password" placeholder="Mot de passe">
+
+                <button type="submit">Créer</button>
+            </form>
+        </section>
+
+        <section class="join-room">
+            <h2>Rejoindre une Room</h2>
+            <form action="#">
+                <label for="room-id">ID de la Room:</label>
+                <input type="text" id="room-id" name="room-id" placeholder="Entrez l'ID de la room" required>
+
+                <label for="join-password">Mot de passe (si requis):</label>
+                <input type="password" id="join-password" name="join-password" placeholder="Mot de passe">
+
+                <button type="submit">Rejoindre</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Rooms Sécurisées</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Lien vers le JavaScript -->
+</body>
+</html>
